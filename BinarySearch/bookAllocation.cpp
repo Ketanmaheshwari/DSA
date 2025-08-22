@@ -99,9 +99,9 @@ int allocateBooks(vector<int> &arr, int n, int m) {
 }
 
 int main() {
-    vector<int> arr = {12, 34, 67, 90};
-    int n = arr.size();
-    int m = 2;
-    cout << allocateBooks(arr, n, m) << endl;  // Expected output: 113
-    return 0;
+        vector<int> arr = {2, 1, 3, 4};
+        int n = arr.size();
+        int m = 2;
+        cout << allocateBooks(arr, n, m) << endl;  // Expected output: 113
+        return 0;
 }
